@@ -1,0 +1,27 @@
+# assign value to site_name variable
+site_name = 'programiz.pro'
+
+print(site_name)
+
+
+# Changing the value of variable in python
+site_name = 'programiz.pro'
+print(site_name)
+
+# assigning a new value to site_name
+site_name = 'apple.com'
+
+print(site_name)
+
+# Assigning multiple value to multiple variable
+a, b, c = 5, 3.2, 'Hello'
+
+print (a)  # prints 5
+print (b)  # prints 3.2
+print (c)  # prints Hello
+
+#same value to multiple variables at once
+site1 = site2  = 'programiz.com'
+
+print (site1)  # prints programiz.com
+print (site2)  # prints programiz.com

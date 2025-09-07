@@ -24,13 +24,13 @@ print("Sum:",num_sum)
 a=5.9
 b=2
 c = int(a)+int(b)
-print(c)
+print("flaot to Int:",c)
 
 # string to int
 a="59"
 b=2
 c = int(a)+int(b)
-print(c)
+print("string to Int:",c)
 
 # boolean to int
 print(int(True))

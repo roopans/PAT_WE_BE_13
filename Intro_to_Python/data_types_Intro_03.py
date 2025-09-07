@@ -1,4 +1,6 @@
 # assign value to site_name variable
+from html.parser import commentclose
+
 site_name = 'programiz.pro'
 
 print(site_name)
@@ -25,3 +27,4 @@ site1 = site2  = 'programiz.com'
 
 print (site1)  # prints programiz.com
 print (site2)  # prints programiz.com
+

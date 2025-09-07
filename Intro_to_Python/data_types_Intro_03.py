@@ -1,5 +1,5 @@
 # assign value to site_name variable
-from html.parser import commentclose
+# from html.parser import commentclose
 
 site_name = 'programiz.pro'
 
@@ -11,7 +11,7 @@ site_name = 'programiz.pro'
 print(site_name)
 
 # assigning a new value to site_name
-site_name = 'apple.com'
+site_name = 'Google.com'
 
 print(site_name)
 
@@ -23,8 +23,8 @@ print (b)  # prints 3.2
 print (c)  # prints Hello
 
 #same value to multiple variables at once
-site1 = site2  = 'programiz.com'
+site1 = site2  = 'Test.com'
 
-print (site1)  # prints programiz.com
-print (site2)  # prints programiz.com
+print (site1)
+print (site2)
 

@@ -18,4 +18,10 @@ for(index, character) in enumerate(test_str):
     print(index, character)
 # String slicing
 print("Character of index 0 to 5:",test_str[0:5])
-print("Character of index last character:",test_str[16])
+print("Character of index last character:",test_str[1:-1])
+print("Character of index last character:",test_str[::])
+
+#palindrom string
+test = "madam"
+print(test[::1]) == print(test[::-1])
+
